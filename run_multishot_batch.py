@@ -1,6 +1,7 @@
 import argparse
-import math
 import json
+import math
+import os
 import shutil
 import subprocess
 import sys
@@ -11,7 +12,8 @@ def parse_args():
     parser = argparse.ArgumentParser(
         description="Run Echo-Forcing multishot prompts and save full/shot videos by source JSON index."
     )
-    parser.add_argument("--checkpoint_path", required=True, help="Model checkpoint path passed to inference.py")
+    parser.add_argument("--checkpoint_path", default=None, help="Model checkpoint path passed to inference.py")
+    parser.add_argument("--model_path", default=None, help="Alias for --checkpoint_path")
     parser.add_argument("--config_path", default="configs/self_forcing_dmd.yaml", help="Config path passed to inference.py")
     parser.add_argument(
         "--prompts_path",
@@ -35,7 +37,29 @@ def parse_args():
     parser.add_argument("--python_executable", default=sys.executable, help="Python executable used for inference.py")
     parser.add_argument("--skip_inference", action="store_true", help="Only organize and split existing raw videos")
     parser.add_argument("--keep_raw", action="store_true", help="Keep raw inference files after organizing")
-    return parser.parse_args()
+    parser.add_argument(
+        "--upload",
+        action=argparse.BooleanOptionalAction,
+        default=True,
+        help="Upload output_root to Hugging Face after generation",
+    )
+    parser.add_argument("--hf_repo_id", default="Orannue/multishot_long_video", help="Hugging Face repo id")
+    parser.add_argument("--hf_repo_type", default="model", choices=["model", "dataset", "space"], help="Hugging Face repo type")
+    parser.add_argument(
+        "--hf_path_in_repo",
+        default=None,
+        help="Destination path inside the Hugging Face repo. Defaults to output_root name.",
+    )
+    parser.add_argument(
+        "--hf_token",
+        default=None,
+        help="Hugging Face token. If omitted, uses HF_TOKEN/HUGGINGFACE_HUB_TOKEN or local login.",
+    )
+    args = parser.parse_args()
+    args.checkpoint_path = args.checkpoint_path or args.model_path
+    if not args.checkpoint_path and not args.skip_inference:
+        parser.error("--checkpoint_path or --model_path is required unless --skip_inference is used")
+    return args
 
 
 def load_metadata(path):
@@ -68,6 +92,28 @@ def run_inference(args, raw_output_folder, inference_end_idx):
 
     print("Running:", " ".join(cmd), flush=True)
     subprocess.run(cmd, check=True)
+
+
+def upload_outputs(args, output_root):
+    os.environ.setdefault("HF_HUB_ENABLE_HF_TRANSFER", "1")
+    from huggingface_hub import HfApi
+
+    path_in_repo = args.hf_path_in_repo or output_root.name
+    token = args.hf_token or os.environ.get("HF_TOKEN") or os.environ.get("HUGGINGFACE_HUB_TOKEN")
+
+    print(
+        f"Uploading {output_root} to hf://{args.hf_repo_id}/{path_in_repo}",
+        flush=True,
+    )
+    api = HfApi()
+    api.upload_folder(
+        folder_path=str(output_root),
+        path_in_repo=path_in_repo,
+        repo_id=args.hf_repo_id,
+        repo_type=args.hf_repo_type,
+        token=token,
+    )
+    print("Upload completed", flush=True)
 
 
 def find_raw_video(raw_output_folder, line_idx, seed):
@@ -185,6 +231,9 @@ def main():
 
     if not args.keep_raw and not args.skip_inference:
         shutil.rmtree(raw_output_folder, ignore_errors=True)
+
+    if args.upload:
+        upload_outputs(args, output_root)
 
 
 if __name__ == "__main__":
