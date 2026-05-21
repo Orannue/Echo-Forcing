@@ -17,6 +17,7 @@ HF_TOKEN="${HF_TOKEN:-}"
 START_IDX=0
 END_IDX=100
 SEED=0
+NUM_GPUS=4
 
 python run_multishot_batch.py \
   --model_path "$CHECKPOINT_PATH" \
@@ -28,6 +29,7 @@ python run_multishot_batch.py \
   --start_idx "$START_IDX" \
   --end_idx "$END_IDX" \
   --seed "$SEED" \
+  --num_gpus "$NUM_GPUS" \
   --hf_repo_id "$HF_REPO_ID" \
   --hf_repo_type "$HF_REPO_TYPE" \
   --hf_path_in_repo "$HF_PATH_IN_REPO" \

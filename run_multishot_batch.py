@@ -40,6 +40,8 @@ def parse_args():
     parser.add_argument("--temporal_compression", type=int, default=4, help="Latent-to-video temporal compression")
     parser.add_argument("--num_frame_per_block", type=int, default=3, help="Echo-Forcing latent frames per generation block")
     parser.add_argument("--python_executable", default=sys.executable, help="Python executable used for inference.py")
+    parser.add_argument("--num_gpus", type=int, default=1, help="Number of GPUs for inference. Uses torchrun when > 1")
+    parser.add_argument("--torchrun_executable", default="torchrun", help="torchrun executable used when --num_gpus > 1")
     parser.add_argument("--skip_inference", action="store_true", help="Only organize and split existing raw videos")
     parser.add_argument("--keep_raw", action="store_true", help="Keep raw inference files after organizing")
     parser.add_argument(
@@ -64,6 +66,8 @@ def parse_args():
     args.checkpoint_path = args.checkpoint_path or args.model_path
     if not args.checkpoint_path and not args.skip_inference:
         parser.error("--checkpoint_path or --model_path is required unless --skip_inference is used")
+    if args.num_gpus < 1:
+        parser.error("--num_gpus must be >= 1")
     return args
 
 
@@ -76,8 +80,12 @@ def load_metadata(path):
 def run_inference(args, raw_output_folder, inference_end_idx):
     env = os.environ.copy()
     env["WAN_MODEL_PATH"] = args.wan_model_path
-    cmd = [
-        args.python_executable,
+    launcher = (
+        [args.torchrun_executable, "--standalone", "--nproc_per_node", str(args.num_gpus)]
+        if args.num_gpus > 1
+        else [args.python_executable]
+    )
+    cmd = launcher + [
         "inference.py",
         "--config_path",
         args.config_path,
