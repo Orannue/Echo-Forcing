@@ -12,7 +12,13 @@ def _debug_print(*args, **kwargs):
 
 
 cpu = torch.device('cpu')
-gpu = torch.device(f'cuda:{torch.cuda.current_device()}')
+
+
+def current_gpu():
+    return torch.device(f'cuda:{torch.cuda.current_device()}')
+
+
+gpu = current_gpu()
 gpu_complete_modules = []
 
 

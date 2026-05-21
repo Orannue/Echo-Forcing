@@ -24,7 +24,7 @@ from utils.interactive import (
     parse_total_duration,
 )
 
-from utils.memory import gpu, get_cuda_free_memory_gb, DynamicSwapInstaller
+from utils.memory import current_gpu, get_cuda_free_memory_gb, DynamicSwapInstaller
 
 
 def _debug_print(*args, **kwargs):
@@ -182,8 +182,9 @@ else:
     world_size = 1
     set_seed(args.seed)
 
-_debug_print(f'Free VRAM {get_cuda_free_memory_gb(gpu)} GB')
-low_memory = get_cuda_free_memory_gb(gpu) < float(getattr(inference_cfg, "low_memory_threshold_gb", 40))
+runtime_gpu = current_gpu()
+_debug_print(f'Free VRAM {get_cuda_free_memory_gb(runtime_gpu)} GB')
+low_memory = get_cuda_free_memory_gb(runtime_gpu) < float(getattr(inference_cfg, "low_memory_threshold_gb", 40))
 
 # Initialize pipeline
 if hasattr(config, 'denoising_step_list'):
@@ -211,11 +212,11 @@ if args.checkpoint_path:
 
 pipeline = pipeline.to(dtype=torch.bfloat16)
 if low_memory:
-    DynamicSwapInstaller.install_model(pipeline.text_encoder, device=gpu)
+    DynamicSwapInstaller.install_model(pipeline.text_encoder, device=runtime_gpu)
 else:
-    pipeline.text_encoder.to(device=gpu)
-pipeline.generator.to(device=gpu)
-pipeline.vae.to(device=gpu)
+    pipeline.text_encoder.to(device=runtime_gpu)
+pipeline.generator.to(device=runtime_gpu)
+pipeline.vae.to(device=runtime_gpu)
 
 
 # Create dataset

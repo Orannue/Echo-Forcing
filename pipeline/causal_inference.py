@@ -7,7 +7,7 @@ import torch
 from utils.interactive import parse_scene_segments
 from utils.wan_wrapper import WanDiffusionWrapper, WanTextEncoder, WanVAEWrapper
 
-from utils.memory import gpu, get_cuda_free_memory_gb, move_model_to_device_with_memory_preservation
+from utils.memory import current_gpu, get_cuda_free_memory_gb, move_model_to_device_with_memory_preservation
 
 
 def _debug_print(*args, **kwargs):
@@ -297,8 +297,13 @@ class CausalInferencePipeline(torch.nn.Module):
             )
 
         if low_memory:
-            gpu_memory_preservation = get_cuda_free_memory_gb(gpu) + 5
-            move_model_to_device_with_memory_preservation(self.text_encoder, target_device=gpu, preserved_memory_gb=gpu_memory_preservation)
+            runtime_gpu = current_gpu()
+            gpu_memory_preservation = get_cuda_free_memory_gb(runtime_gpu) + 5
+            move_model_to_device_with_memory_preservation(
+                self.text_encoder,
+                target_device=runtime_gpu,
+                preserved_memory_gb=gpu_memory_preservation,
+            )
 
 
         output = torch.zeros(
