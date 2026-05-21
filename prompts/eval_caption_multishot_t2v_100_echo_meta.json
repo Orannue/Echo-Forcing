@@ -1,0 +1,3802 @@
+[
+    {
+        "line_idx":  0,
+        "json_index":  1,
+        "source_index":  1,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  1,
+        "json_index":  2,
+        "source_index":  2,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  2,
+        "json_index":  3,
+        "source_index":  3,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  3,
+        "json_index":  4,
+        "source_index":  4,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  4,
+        "json_index":  5,
+        "source_index":  5,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  5,
+        "json_index":  6,
+        "source_index":  6,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  6,
+        "json_index":  7,
+        "source_index":  7,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  7,
+        "json_index":  8,
+        "source_index":  8,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  8,
+        "json_index":  9,
+        "source_index":  9,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  9,
+        "json_index":  10,
+        "source_index":  10,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  10,
+        "json_index":  11,
+        "source_index":  11,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  11,
+        "json_index":  12,
+        "source_index":  12,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  12,
+        "json_index":  13,
+        "source_index":  13,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  13,
+        "json_index":  14,
+        "source_index":  14,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  14,
+        "json_index":  15,
+        "source_index":  15,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  15,
+        "json_index":  16,
+        "source_index":  16,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  16,
+        "json_index":  17,
+        "source_index":  17,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  17,
+        "json_index":  18,
+        "source_index":  18,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  18,
+        "json_index":  19,
+        "source_index":  19,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  19,
+        "json_index":  20,
+        "source_index":  20,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  20,
+        "json_index":  21,
+        "source_index":  21,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  21,
+        "json_index":  22,
+        "source_index":  22,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  22,
+        "json_index":  23,
+        "source_index":  23,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  23,
+        "json_index":  24,
+        "source_index":  24,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  24,
+        "json_index":  25,
+        "source_index":  25,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  25,
+        "json_index":  26,
+        "source_index":  26,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  26,
+        "json_index":  27,
+        "source_index":  27,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  27,
+        "json_index":  28,
+        "source_index":  28,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  28,
+        "json_index":  29,
+        "source_index":  29,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  29,
+        "json_index":  30,
+        "source_index":  30,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  30,
+        "json_index":  31,
+        "source_index":  31,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  31,
+        "json_index":  32,
+        "source_index":  32,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  32,
+        "json_index":  33,
+        "source_index":  33,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  33,
+        "json_index":  34,
+        "source_index":  34,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  34,
+        "json_index":  35,
+        "source_index":  35,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  35,
+        "json_index":  36,
+        "source_index":  36,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  36,
+        "json_index":  37,
+        "source_index":  37,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  37,
+        "json_index":  38,
+        "source_index":  38,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  38,
+        "json_index":  39,
+        "source_index":  39,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  39,
+        "json_index":  40,
+        "source_index":  40,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  40,
+        "json_index":  41,
+        "source_index":  41,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  41,
+        "json_index":  42,
+        "source_index":  42,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  42,
+        "json_index":  43,
+        "source_index":  43,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  43,
+        "json_index":  44,
+        "source_index":  44,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  44,
+        "json_index":  45,
+        "source_index":  45,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  45,
+        "json_index":  46,
+        "source_index":  46,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  46,
+        "json_index":  47,
+        "source_index":  47,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  47,
+        "json_index":  48,
+        "source_index":  48,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  48,
+        "json_index":  49,
+        "source_index":  49,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  49,
+        "json_index":  50,
+        "source_index":  50,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  50,
+        "json_index":  51,
+        "source_index":  51,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  51,
+        "json_index":  52,
+        "source_index":  52,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  52,
+        "json_index":  53,
+        "source_index":  53,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  53,
+        "json_index":  54,
+        "source_index":  54,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  54,
+        "json_index":  55,
+        "source_index":  55,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  55,
+        "json_index":  56,
+        "source_index":  56,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  56,
+        "json_index":  57,
+        "source_index":  57,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  57,
+        "json_index":  58,
+        "source_index":  58,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  58,
+        "json_index":  59,
+        "source_index":  59,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  59,
+        "json_index":  60,
+        "source_index":  60,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  60,
+        "json_index":  61,
+        "source_index":  61,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  61,
+        "json_index":  62,
+        "source_index":  62,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  62,
+        "json_index":  63,
+        "source_index":  63,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  63,
+        "json_index":  64,
+        "source_index":  64,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  64,
+        "json_index":  65,
+        "source_index":  65,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  65,
+        "json_index":  66,
+        "source_index":  66,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  66,
+        "json_index":  67,
+        "source_index":  67,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  67,
+        "json_index":  68,
+        "source_index":  68,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  68,
+        "json_index":  69,
+        "source_index":  69,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  69,
+        "json_index":  70,
+        "source_index":  70,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  70,
+        "json_index":  71,
+        "source_index":  71,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  71,
+        "json_index":  72,
+        "source_index":  72,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  72,
+        "json_index":  73,
+        "source_index":  73,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  73,
+        "json_index":  74,
+        "source_index":  74,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  74,
+        "json_index":  75,
+        "source_index":  75,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  75,
+        "json_index":  76,
+        "source_index":  76,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  76,
+        "json_index":  77,
+        "source_index":  77,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  77,
+        "json_index":  78,
+        "source_index":  78,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  78,
+        "json_index":  79,
+        "source_index":  79,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  79,
+        "json_index":  80,
+        "source_index":  80,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  80,
+        "json_index":  81,
+        "source_index":  81,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  81,
+        "json_index":  82,
+        "source_index":  82,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  82,
+        "json_index":  83,
+        "source_index":  83,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  83,
+        "json_index":  84,
+        "source_index":  84,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  84,
+        "json_index":  85,
+        "source_index":  85,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  85,
+        "json_index":  86,
+        "source_index":  86,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  86,
+        "json_index":  87,
+        "source_index":  87,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  87,
+        "json_index":  88,
+        "source_index":  88,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  88,
+        "json_index":  89,
+        "source_index":  89,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  89,
+        "json_index":  90,
+        "source_index":  90,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  90,
+        "json_index":  91,
+        "source_index":  91,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  91,
+        "json_index":  92,
+        "source_index":  92,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  92,
+        "json_index":  93,
+        "source_index":  93,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  93,
+        "json_index":  94,
+        "source_index":  94,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  94,
+        "json_index":  95,
+        "source_index":  95,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  95,
+        "json_index":  96,
+        "source_index":  96,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  96,
+        "json_index":  97,
+        "source_index":  97,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  97,
+        "json_index":  98,
+        "source_index":  98,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  98,
+        "json_index":  99,
+        "source_index":  99,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    },
+    {
+        "line_idx":  99,
+        "json_index":  100,
+        "source_index":  100,
+        "num_shots":  6,
+        "durations_seconds":  [
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5,
+                                  5
+                              ],
+        "actual_block_counts_from_code":  [
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6,
+                                              6
+                                          ],
+        "actual_switch_latent_frames_from_code":  [
+                                                      18,
+                                                      36,
+                                                      54,
+                                                      72,
+                                                      90
+                                                  ],
+        "actual_total_latent_frames_from_code":  120,
+        "source_latent_total_frames":  127,
+        "source_switch_latent_frames":  [
+                                            22,
+                                            43,
+                                            64,
+                                            85,
+                                            106
+                                        ]
+    }
+]
