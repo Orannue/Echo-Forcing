@@ -14,6 +14,11 @@ def parse_args():
     )
     parser.add_argument("--checkpoint_path", default=None, help="Model checkpoint path passed to inference.py")
     parser.add_argument("--model_path", default=None, help="Alias for --checkpoint_path")
+    parser.add_argument(
+        "--wan_model_path",
+        default="wan_models/Wan2.1-T2V-1.3B",
+        help="Path to Wan2.1-T2V-1.3B base model directory",
+    )
     parser.add_argument("--config_path", default="configs/self_forcing_dmd.yaml", help="Config path passed to inference.py")
     parser.add_argument(
         "--prompts_path",
@@ -69,6 +74,8 @@ def load_metadata(path):
 
 
 def run_inference(args, raw_output_folder, inference_end_idx):
+    env = os.environ.copy()
+    env["WAN_MODEL_PATH"] = args.wan_model_path
     cmd = [
         args.python_executable,
         "inference.py",
@@ -91,7 +98,8 @@ def run_inference(args, raw_output_folder, inference_end_idx):
     ]
 
     print("Running:", " ".join(cmd), flush=True)
-    subprocess.run(cmd, check=True)
+    print(f"WAN_MODEL_PATH={args.wan_model_path}", flush=True)
+    subprocess.run(cmd, check=True, env=env)
 
 
 def upload_outputs(args, output_root):

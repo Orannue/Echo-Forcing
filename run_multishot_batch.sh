@@ -2,6 +2,7 @@
 set -euo pipefail
 
 CHECKPOINT_PATH="checkpoints/self_forcing_dmd.pt"
+WAN_MODEL_PATH="..models/Wan2.1-T2V-1.3B"
 CONFIG_PATH="configs/self_forcing_dmd.yaml"
 PROMPTS_PATH="prompts/eval_caption_multishot_t2v_100_echo.txt"
 METADATA_PATH="prompts/eval_caption_multishot_t2v_100_echo_meta.json"
@@ -19,6 +20,7 @@ SEED=0
 
 python run_multishot_batch.py \
   --model_path "$CHECKPOINT_PATH" \
+  --wan_model_path "$WAN_MODEL_PATH" \
   --config_path "$CONFIG_PATH" \
   --prompts_path "$PROMPTS_PATH" \
   --metadata_path "$METADATA_PATH" \
