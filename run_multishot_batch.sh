@@ -19,7 +19,7 @@ END_IDX=100
 SEED=0
 NUM_GPUS=4
 
-python run_multishot_batch.py \
+CUDA_VISIBLE_DEVICES=0,1,2,3 python run_multishot_batch.py \
   --model_path "$CHECKPOINT_PATH" \
   --wan_model_path "$WAN_MODEL_PATH" \
   --config_path "$CONFIG_PATH" \
