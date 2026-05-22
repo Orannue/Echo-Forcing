@@ -1,9 +1,9 @@
 ﻿set -euo pipefail
 
 # Change these paths to your real generated videos root, manifest, and model cache.
-RESULT_ROOT="demo/infer/eval_caption_multishot_t2v_100"
+RESULT_ROOT="output/multishot_eval"
 MANIFEST="../FAR-Dev2/assets/data/meta/vbench/Vbench_multishot_manifest.json"
-OUTPUT_DIR="demo/infer/eval_caption_multishot_t2v_100"
+OUTPUT_DIR="output/multishot_eval"
 DEVICE="cuda"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
