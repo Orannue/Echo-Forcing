@@ -417,10 +417,23 @@ class CausalWanSelfAttention(nn.Module):
         if current_end > self.max_attention_size:
             return
 
-        q_complex = _to_complex_pairs(q.detach().to(torch.float32))
-        kv_cache["q_calib_sum"] += q_complex.sum(dim=(0, 1)).to(torch.complex64)
-        kv_cache["q_calib_abs_sum"] += q_complex.abs().sum(dim=(0, 1)).to(torch.float32)
-        kv_cache["q_calib_token_count"] += float(q.shape[0] * q.shape[1])
+        q_pairs = q.detach().to(torch.float32).reshape(*q.shape[:-1], -1, 2).contiguous()
+        q_real_sum = q_pairs[..., 0].sum(dim=(0, 1))
+        q_imag_sum = q_pairs[..., 1].sum(dim=(0, 1))
+        q_sum = torch.complex(q_real_sum, q_imag_sum).to(
+            device=kv_cache["q_calib_sum"].device,
+            dtype=torch.complex64,
+        )
+        q_abs_sum = torch.sqrt(
+            q_pairs[..., 0].square() + q_pairs[..., 1].square()
+        ).sum(dim=(0, 1)).to(
+            device=kv_cache["q_calib_abs_sum"].device,
+            dtype=torch.float32,
+        )
+
+        kv_cache["q_calib_sum"] = kv_cache["q_calib_sum"] + q_sum
+        kv_cache["q_calib_abs_sum"] = kv_cache["q_calib_abs_sum"] + q_abs_sum
+        kv_cache["q_calib_token_count"] = kv_cache["q_calib_token_count"] + float(q.shape[0] * q.shape[1])
         if self.block_id == 0:
             _debug_print(f"Q calibration tokens={int(kv_cache['q_calib_token_count'].item())}")
 
