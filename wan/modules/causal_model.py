@@ -551,16 +551,26 @@ class CausalWanSelfAttention(nn.Module):
         if recent_tokens <= 0:
             return None, 0
 
-        history_k_complex = _to_complex_pairs(history_k.to(torch.float32))[0]
-
         q_mean = q_mean.to(device=history_k.device, dtype=torch.complex64)
         q_abs_mean = q_abs_mean.to(device=history_k.device, dtype=torch.float32)
-        q_mean_abs = torch.abs(q_mean)
-        k_abs = torch.abs(history_k_complex)
+        q_mean_real = q_mean.real.to(torch.float32)
+        q_mean_imag = q_mean.imag.to(torch.float32)
+        q_mean_abs = torch.sqrt(q_mean_real.square() + q_mean_imag.square())
 
-        relative = q_mean.unsqueeze(0) * torch.conj(history_k_complex)
+        history_pairs = history_k.to(torch.float32).reshape(
+            history_k.shape[0],
+            history_k.shape[1],
+            history_k.shape[2],
+            -1,
+            2,
+        ).contiguous()[0]
+        history_real = history_pairs[..., 0]
+        history_imag = history_pairs[..., 1]
+        k_abs = torch.sqrt(history_real.square() + history_imag.square())
 
-        phi = torch.atan2(relative.imag, relative.real)
+        relative_real = q_mean_real.unsqueeze(0) * history_real + q_mean_imag.unsqueeze(0) * history_imag
+        relative_imag = q_mean_imag.unsqueeze(0) * history_real - q_mean_real.unsqueeze(0) * history_imag
+        phi = torch.atan2(relative_imag, relative_real)
         
         amp = q_mean_abs.unsqueeze(0) * k_abs
 
@@ -570,14 +580,15 @@ class CausalWanSelfAttention(nn.Module):
             extra = torch.zeros_like(k_abs)
 
         if self.PC.use_amplitude_compensation and self.PC.use_drift_gate and q_recent is not None:
-            q_recent_complex = _to_complex_pairs(q_recent.detach().to(torch.float32))
-            q_recent_mean = q_recent_complex.mean(dim=(0, 1)).to(
-                device=history_k.device,
-                dtype=torch.complex64,
-            )
+            q_recent_pairs = q_recent.detach().to(torch.float32).reshape(
+                *q_recent.shape[:-1],
+                -1,
+                2,
+            ).contiguous()
+            q_recent_mean_pairs = q_recent_pairs.mean(dim=(0, 1)).to(device=history_k.device)
 
-            recent_vec = torch.view_as_real(q_recent_mean).flatten()
-            calib_vec = torch.view_as_real(q_mean).flatten()
+            recent_vec = q_recent_mean_pairs.flatten()
+            calib_vec = torch.stack([q_mean_real, q_mean_imag], dim=-1).flatten()
 
             drift_similarity = torch.nn.functional.cosine_similarity(
                 recent_vec,
