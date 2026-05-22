@@ -36,4 +36,5 @@ python run_multishot_batch.py \
   --hf_repo_type "$HF_REPO_TYPE" \
   --hf_path_in_repo "$HF_PATH_IN_REPO" \
   --hf_token "$HF_TOKEN" \
-  --upload
+  --upload \
+  --skip_inference
