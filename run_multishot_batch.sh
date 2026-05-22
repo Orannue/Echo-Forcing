@@ -18,8 +18,10 @@ START_IDX=0
 END_IDX=100
 SEED=0
 NUM_GPUS=4
+CUDA_VISIBLE_DEVICES="${CUDA_VISIBLE_DEVICES:-0,1,2,3}"
+export CUDA_VISIBLE_DEVICES
 
-CUDA_VISIBLE_DEVICES=0,1,2,3 python run_multishot_batch.py \
+python run_multishot_batch.py \
   --model_path "$CHECKPOINT_PATH" \
   --wan_model_path "$WAN_MODEL_PATH" \
   --config_path "$CONFIG_PATH" \
