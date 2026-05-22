@@ -20,7 +20,7 @@ CUDA_VISIBLE_DEVICES=3 python evaluate_multishot.py \
   --manifest "$MANIFEST" \
   --output-dir "$OUTPUT_DIR" \
   --device "$DEVICE" \
-  --metrics overall_quality shot_structure intra_shot_quality inter_shot_quality \
+  --metrics  shot_structure  \
   --text-alignment-metric overall_consistency \
   --overall-quality-dimensions aesthetic_quality dynamic_degree \
   --intra-shot-quality-dimensions subject_consistency background_consistency \
