@@ -183,6 +183,7 @@ def split_video(full_path, target_dir, durations, args):
         raise RuntimeError(f"Could not read frames from {full_path}")
 
     fps = float(info.get("video_fps") or args.fps)
+    write_fps = int(round(fps))
     total_frames = int(video.shape[0])
     if sum(durations) <= 0:
         raise ValueError(f"Invalid shot durations for {full_path}: {durations}")
@@ -202,12 +203,13 @@ def split_video(full_path, target_dir, durations, args):
     for shot_idx, (start, end) in enumerate(zip(boundaries[:-1], boundaries[1:]), start=1):
         start = max(0, min(start, total_frames - 1))
         end = max(start + 1, min(end, total_frames))
-        write_video(str(target_dir / f"shot{shot_idx}.mp4"), video[start:end], fps=fps)
+        write_video(str(target_dir / f"shot{shot_idx}.mp4"), video[start:end], fps=write_fps)
 
     split_info = {
         "full_video": str(full_path),
         "video_total_frames": total_frames,
         "video_fps": fps,
+        "write_fps": write_fps,
         "durations_seconds": durations,
         "block_counts_from_code": block_counts,
         "switch_latent_frames_from_code": switch_latents,
