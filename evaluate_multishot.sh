@@ -15,7 +15,7 @@ export VBENCH_CACHE_DIR="$(cd "$MODEL_CACHE_DIR" && pwd)"
 echo "VBENCH_CACHE_DIR=$VBENCH_CACHE_DIR"
 ls "$VBENCH_CACHE_DIR"
 
-python evaluate_multishot.py \
+CUDA_VISIBLE_DEVICES=3 python evaluate_multishot.py \
   --result-root "$RESULT_ROOT" \
   --manifest "$MANIFEST" \
   --output-dir "$OUTPUT_DIR" \
